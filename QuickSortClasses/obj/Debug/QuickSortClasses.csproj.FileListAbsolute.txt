@@ -1,0 +1,7 @@
+C:\Users\ataya\source\repos\QuickSortClasses\QuickSortClasses\bin\Debug\QuickSortClasses.exe.config
+C:\Users\ataya\source\repos\QuickSortClasses\QuickSortClasses\bin\Debug\QuickSortClasses.exe
+C:\Users\ataya\source\repos\QuickSortClasses\QuickSortClasses\bin\Debug\QuickSortClasses.pdb
+C:\Users\ataya\source\repos\QuickSortClasses\QuickSortClasses\obj\Debug\QuickSortClasses.csprojAssemblyReference.cache
+C:\Users\ataya\source\repos\QuickSortClasses\QuickSortClasses\obj\Debug\QuickSortClasses.csproj.CoreCompileInputs.cache
+C:\Users\ataya\source\repos\QuickSortClasses\QuickSortClasses\obj\Debug\QuickSortClasses.exe
+C:\Users\ataya\source\repos\QuickSortClasses\QuickSortClasses\obj\Debug\QuickSortClasses.pdb
