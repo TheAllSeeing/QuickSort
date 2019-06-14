@@ -14,7 +14,7 @@ namespace QuickSortClasses
         /// <param name="pivot"></param>
         /// <param name="objB"></param>
         /// <returns></returns>
-        public abstract T GetHigher(T pivot, T objB);
+        public abstract override T GetHigher(T pivot, T objB);
         
 
         /// <summary>
@@ -57,20 +57,14 @@ namespace QuickSortClasses
 
         }
 
-        public void Sort(T[] arr)
+        public override void Sort(T[] arr)
         {
             Sort(arr, 0, arr.Length-1);
         }
 
-        private void Swap(T[] arr, int indexA, int indexB)
-        {
-            T temp = arr[indexB];
-            arr[indexB] = arr[indexA];
-            arr[indexA] = temp;
-        }
     }
 
-    class IntSizeSort : QuickSort<int>
+    class IntSizeQuickSort : QuickSort<int>
     {
         public override int GetHigher(int pivot, int element)
         {

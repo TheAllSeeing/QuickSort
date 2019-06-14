@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace QuickSortClasses
 {
@@ -10,13 +11,42 @@ namespace QuickSortClasses
     {
         static void Main(string[] args)
         {
-            IntSizeSort Sorter = new IntSizeSort();
+            IntSizeInsertion InsertionSorter = new IntSizeInsertion();
+            WriteLine("Insertion Sort:");
             int[] arr = GenerateRandomArr(10);
+            Write("Unsorted Array: ");
             PrntArr(arr);
-            Console.WriteLine();
-            Sorter.Sort(arr);
+            WriteLine();
+            InsertionSorter.Sort(arr);
+            Write("Sorted Array: ");
             PrntArr(arr);
-            Console.ReadKey();
+
+            WriteLine();
+            WriteLine();
+
+            IntSizeBubble BubbleSorter = new IntSizeBubble();
+            WriteLine("Insertion Sort:");
+            arr = GenerateRandomArr(10);
+            Write("Unsorted Array: ");
+            PrntArr(arr);
+            WriteLine();
+            BubbleSorter.Sort(arr);
+            Write("Sorted Array: ");
+            PrntArr(arr);
+
+            WriteLine();
+            WriteLine();
+
+            IntSizeQuickSort QuickSorter = new IntSizeQuickSort();
+            WriteLine("Insertion Sort:");
+            arr = GenerateRandomArr(10);
+            Write("Unsorted Array: ");
+            PrntArr(arr);
+            WriteLine();
+            InsertionSorter.Sort(arr);
+            Write("Sorted Array: ");
+            PrntArr(arr);
+            ReadKey();
         }
 
         static int[] GenerateRandomArr(int size)
